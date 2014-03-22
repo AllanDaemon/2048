@@ -1,0 +1,25 @@
+diff --git a/index.html b/index.html
+index cbcfe65..41aee40 100644
+--- a/index.html
++++ b/index.html
+@@ -24,6 +24,11 @@
+     </div>
+     <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+ 
++    <div class="undo-redo-container">
++      <a><div class="undo-button disabled-button">Undo</div></a>
++      <a><div class="redo-button disabled-button">Redo</div></a>
++    </div>
++
+     <div class="game-container">
+       <div class="game-message">
+         <p></p>
+@@ -66,7 +71,7 @@
+     </div>
+ 
+     <p class="game-explanation">
+-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
++      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong> Use <kbd>u</kbd> or <kbd>Ctrl</kbd>+<kbd>z</kbd> to undo and <kbd>r</kbd> or <kbd>Ctrl</kbd>+<kbd>r</kbd> to redo.
+     </p>
+     <hr>
+     <p>
